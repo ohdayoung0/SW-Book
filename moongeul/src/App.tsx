@@ -6,11 +6,13 @@ import Search from './pages/Search.tsx'
 import Recommend from './pages/Recommend.tsx'
 import Write from './pages/Write.tsx'
 import PostDetail from './pages/PostDetail.tsx'
+import Test from './pages/test.tsx'
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Test></Test>}></Route>
         <Route path="/home" element={<Home />} />
         <Route path="/home/:postId" element={<PostDetail />} />
         <Route path="/mypage" element={<MyPage />} />
