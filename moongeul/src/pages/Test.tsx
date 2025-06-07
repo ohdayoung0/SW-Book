@@ -3,8 +3,6 @@ export default function Test () {
     return (
         <main>
             <Post></Post>
-            <Post></Post>
-            <Post></Post>
         </main>
     )
 }

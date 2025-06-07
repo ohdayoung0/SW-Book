@@ -1,8 +1,8 @@
-const Search = () => {
-  return (
-    <>
-
-    </>
-  )
+import BookInfo from "../components/search/BookInfo"
+export default function Search () {
+    return (
+        <main>
+            <BookInfo></BookInfo>
+        </main>
+    )
 }
-export default Search

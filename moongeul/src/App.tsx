@@ -6,7 +6,7 @@ import Search from './pages/Search.tsx'
 import Recommend from './pages/Recommend.tsx'
 import Write from './pages/Write.tsx'
 import PostDetail from './pages/PostDetail.tsx'
-import Test from './pages/test.tsx'
+import Test from './pages/Test.tsx'
 
 function App() {
   return (
